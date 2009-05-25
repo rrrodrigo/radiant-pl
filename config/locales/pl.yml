@@ -65,13 +65,13 @@ pl:
     layouts: 
       layouts: 'Szablony'
       layout: 'Szablon'  
-      description: 'Use layouts to apply a visual look to a Web page. Layouts can contain special tags to include page content and other elements such as the header or footer. Click on a layout name below to edit it or click <code>Remove</code> to delete it.'
-      new_layout: 'New Layout'    
-      edit_layout: 'Edit Layout'
+      description: 'Użyj szablonów aby określić wygląd stron serwisu. Szablony mogą zawierać specjalne tagi określające rozmieszczenie treści stron lub innych elementów takich jak nagłówki lub stopki. Kliknięcie na nazwę szablonu umożliwia jego edycję.'
+      new_layout: 'Nowy szablon'    
+      edit_layout: 'Edytuj szablon'
       content_type: 'Content&#8209;Type'    
-      remove_layout: 'Remove Layout' 
-      delete_layout: 'Delete Layout'  
-      remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following layout?'   
+      remove_layout: 'Usuń szablon' 
+      delete_layout: 'Skasuj szablon'  
+      remove_warning_text: 'Czy chcesz <strong class="warning">nieodwracalnie usunąć</strong> ten szablon?'   
     page_parts:
       reference:  'Opis:'
       available_tags: 'Dostępne etykiety'
@@ -81,19 +81,19 @@ pl:
       new_page: 'Nowa strona'
       edit_page:  'Edytuj stronę'   
       page_title: 'Tytuł strony'  
-      remove_tab: 'Remove Tab'  
-      add_tab: 'Add Tab'
+      remove_tab: 'Usuń kartę'  
+      add_tab: 'Dodaj kartę'
       status: 'Status'
       page_type: 'Typ strony'
       published_at: 'Opublikowano' 
       close: 'Zamknij'
       no_pages: 'Brak stron' 
-      delete_pages: 'Delete {{pages}}'  
-      remove_pages: 'Remove {{pages}}' 
-      remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following {{pages}}?'
-      available_tags_for: 'Available Tags for'
-      search_tags: 'Search Tags:'
-      add_part: 'Add Part'
+      delete_pages: 'Usuń {{pages}}'  
+      remove_pages: 'Usuń {{pages}}' 
+      remove_warning_text: 'Czy chcesz <strong class="warning">nieodwracalnie usunąć</strong> następujące strony {{pages}}?'
+      available_tags_for: 'Dostępne etykiety dla '
+      search_tags: 'Szukaj etykiety:'
+      add_part: 'Dodaj część'
     snippets:
       snippets: 'Skrawki'          
       snippet: 'Skrawek'   
@@ -134,7 +134,7 @@ pl:
       login_btn: 'Zaloguj'
       remember_me: 'Zapamiętaj mnie'
 
-  # Page status  
+  # Page status - translating these means trouble
   status:
     draft: 'Draft'
     reviewed: 'Reviewed'
@@ -173,7 +173,7 @@ pl:
     
   # Standard Tag Descriptions
   tag_desc:
-    usage: 'Usage'
+    usage: 'Zastosowanie'
 
     page:
       desc: "Causes the tags referring to a page's attributes to refer to the current page."
