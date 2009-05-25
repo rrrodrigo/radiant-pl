@@ -18,9 +18,9 @@ class Page < ActiveRecord::Base
   # Validations
   validates_presence_of :title, :slug, :breadcrumb, :status_id, :message => I18n.t('models.required')
 
-  validates_length_of :title, :maximum => 255, :message =>  I18n.t('models.character_limit', :count => count)
-  validates_length_of :slug, :maximum => 100, :message =>  I18n.t('models.character_limit', :count => count)
-  validates_length_of :breadcrumb, :maximum => 160, :message =>  I18n.t('models.character_limit', :count => count)
+#  validates_length_of :title, :maximum => 255, :message =>  I18n.t('models.character_limit', :count => count)
+#  validates_length_of :slug, :maximum => 100, :message =>  I18n.t('models.character_limit', :count => count)
+#  validates_length_of :breadcrumb, :maximum => 160, :message =>  I18n.t('models.character_limit', :count => count)
 
   validates_format_of :slug, :with => %r{^([-_.A-Za-z0-9]*|/)$}, :message => I18n.t('invalid format')  
   validates_uniqueness_of :slug, :scope => :parent_id, :message => I18n.t('models.slug_in_use')
