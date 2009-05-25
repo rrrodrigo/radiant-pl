@@ -4,10 +4,10 @@ pl:
   
   # Controllers
   resource_controller:
-    saved: "{{humanized_model_name}} zapisana/-e/-y."
+    saved: "{{humanized_model_name}} - obiekt zapisany."
     validation_errors: "Wystąpiły błędy walidacji podczas przetwarzania formularza. Zlokalizuj i popraw te błędy zanim spróbujesz ponownie."
-    removed: "{{humanized_model_name}} usunięta/-e/-y."  
-    update_conflict: "{{humanized_model_name}} - nastąpiła edycja po ostatnim załadowaniu. Zmiany nie mogą być zapisane - niebezpieczeństwo utraty danych." 
+    removed: "{{humanized_model_name}} - obiekt usunięty."  
+    update_conflict: "{{humanized_model_name}} - nastąpiła edycja obiektu po ostatnim załadowaniu. Zmiany nie mogą być zapisane - niebezpieczeństwo utraty danych." 
   pages_controller:
     saved: "Twoja strona została zapisana."  
     removed_many: "Strony zostały usunięte z serwisu."   
@@ -51,7 +51,7 @@ pl:
     extensions:        
       extensions: 'Rozszerzenia' 
       extension: 'Rozszerzenie'
-      website: 'Serwis'
+      website: 'Strona'
       version: 'Wersja' 
     # This is the rails application layout  
     layout:
@@ -153,12 +153,6 @@ pl:
     normal: '<normal>'
     inherit: '<inherit>'
     
-  # Main Navigation Tags
-  tabs: 
-    pages: 'Strony'
-    snippets: 'Skrawki'
-    layouts: 'Szablony'
-     
   # Timestamp. This may need to be changed as it will most likely not work for many languages.
   timestamp:
     last_updated: 'Ostatnia zmiana:'

@@ -165,12 +165,6 @@ en:
     by: 'by'
     at: 'at'
     
-  # Main Navigation Tags
-  tabs: 
-    pages: 'Pages'
-    snippets: 'Snippets'
-    layouts: 'Layouts'
-    
   # Standard Tag Descriptions
   tag_desc:
     usage: 'Usage'

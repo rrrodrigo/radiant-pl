@@ -87,3 +87,5 @@ end.compact.each_with_object({}) do |str, hsh|
   hsh[name] = str
 end.freeze # {"it-IT" => "Italiano", "en-US" => "American English"}
 
+# Radiant::Config['admin.title'] = "Radiant"
+# Radiant::Config['admin.subtitle'] = "System zarządzania treścią"
