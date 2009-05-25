@@ -1,70 +1,70 @@
-en: 
+pl: 
   # The display name of this language file
-  this_file_language: "English" 
+  this_file_language: "Polski" 
   
   # Controllers
   resource_controller:
-    saved: "{{humanized_model_name}} saved below."
-    validation_errors: "Validation errors occurred while processing this form. Please take a moment to review the form and correct any input errors before continuing."
-    removed: "{{humanized_model_name}} has been deleted."  
-    update_conflict: "{{humanized_model_name}} has been modified since it was last loaded. Changes cannot be saved without potentially losing data." 
+    saved: "{{humanized_model_name}} zapisana/-e/-y."
+    validation_errors: "Wystąpiły błędy walidacji podczas przetwarzania formularza. Zlokalizuj i popraw te błędy zanim spróbujesz ponownie."
+    removed: "{{humanized_model_name}} usunięta/-e/-y."  
+    update_conflict: "{{humanized_model_name}} - nastąpiła edycja po ostatnim załadowaniu. Zmiany nie mogą być zapisane - niebezpieczeństwo utraty danych." 
   pages_controller:
-    saved: "Your page has been saved below."  
-    removed_many: "The pages were successfully removed from the site."   
-    removed_one: "The page was successfully removed from the site."  
+    saved: "Twoja strona została zapisana."  
+    removed_many: "Strony zostały usunięte z serwisu."   
+    removed_one: "Strona została usunięta z serwisu."  
   preferences_contoller:
-    updated: 'Your preferences have been updated.' 
-    error_updating: 'There was an error updating your preferences.'      
+    updated: 'Twoje ustawienia zostały zapisane.' 
+    error_updating: 'Wystąpił błąd podczas zapisywania ustawień.'      
   users_controller:
-    cannot_delete_self: 'You cannot delete yourself.'    
+    cannot_delete_self: 'Nie możesz usunąć własnego konta.'    
   welcome_controller:
-    logged_out: 'You are now logged out.'  
-    invalid_user: 'Invalid username or password.' 
+    logged_out: 'Nastąpiło wylogowanie z serwisu.'  
+    invalid_user: 'Nieprawidłowy login lub złe hasło.' 
     
   # Models
   models:
     # Shared translations
-    required: 'required'
-    name_in_use: 'name already in use'
-    slug_in_use: 'slug already in use for child of parent'
-    character_limit: '{{count}}-character limit'
-    character_minimum: '{{count}}-character minimum'
-    must_be_number: 'must be a number'
-    invalid_format: 'invalid format'
-    no_spaces_tabs: 'cannot contain spaces or tabs'
+    required: 'nieodzowne'
+    name_in_use: 'ta nazwa jest zastosowana w innym miejscu'
+    slug_in_use: 'ten skrót jest już w użyciu gdzieś indziej'
+    character_limit: 'limit długości: {{count}} znaków'
+    character_minimum: 'minimum {{count}} znaków'
+    must_be_number: 'to musi być liczba'
+    invalid_format: 'wadliwy format'
+    no_spaces_tabs: 'nie może zawierać spacji ani znaków tabulacji'
     # User
-    login_in_use: 'login already in use'
-    password_confirmation: 'must match confirmation'
-    invalid_email: 'invalid e-mail address'     
+    login_in_use: 'ten login jest już w użyciu'
+    password_confirmation: 'potwierdzenie było niezgodne z hasłem'
+    invalid_email: 'wadliwy adres E-mail'     
     
   # Views
   views:   
     shared:
-      modify: 'Modify' 
-      more: 'More'
-      less: 'Less' 
-      body: 'Body'  
-      name: 'Name'     
-      filter: 'Filter'
-      cancel: 'Cancel'
-      or: 'or'
+      modify: 'Zmiana' 
+      more: 'Więcej'
+      less: 'Mniej' 
+      body: 'Treść'  
+      name: 'Nazwa'     
+      filter: 'Filtr'
+      cancel: 'Anuluj'
+      or: 'albo'
     extensions:        
-      extensions: 'Extensions' 
-      extension: 'Extension'
-      website: 'Website'
-      version: 'Version' 
+      extensions: 'Rozszerzenia' 
+      extension: 'Rozszerzenie'
+      website: 'Serwis'
+      version: 'Wersja' 
     # This is the rails application layout  
     layout:
-      made_with_ruby: 'This site was made with Ruby and is powered by'  
-      version: 'Version'  
-      users: 'Users'
-      extensions: 'Extensions' 
-      preferences: 'Preferences' 
-      view_site: 'View Site'
-      log_out: 'Log out'   
+      made_with_ruby: 'Serwis zbudowany z wykorzystaniem języka Ruby i '  
+      version: 'wersja'  
+      users: 'Użytkownicy'
+      extensions: 'Rozszerzenia' 
+      preferences: 'Ustawienia' 
+      view_site: 'Obejrzyj serwis'
+      log_out: 'Wyloguj'   
     layouts: 
-      layouts: 'Layouts'
-      layout: 'Layout'  
+      layouts: 'Szablony'
+      layout: 'Szablon'  
       description: 'Use layouts to apply a visual look to a Web page. Layouts can contain special tags to include page content and other elements such as the header or footer. Click on a layout name below to edit it or click <code>Remove</code> to delete it.'
       new_layout: 'New Layout'    
       edit_layout: 'Edit Layout'
@@ -73,21 +73,21 @@ en:
       delete_layout: 'Delete Layout'  
       remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following layout?'   
     page_parts:
-      reference:  'Reference'
-      available_tags: 'Available Tags'
+      reference:  'Opis:'
+      available_tags: 'Dostępne etykiety'
     pages:
-      pages: 'Pages'     
-      page: 'Page'     
-      new_page: 'New Page'
-      edit_page:  'Edit Page'   
-      page_title: 'Page Title'  
+      pages: 'Strony'     
+      page: 'Strona'     
+      new_page: 'Nowa strona'
+      edit_page:  'Edytuj stronę'   
+      page_title: 'Tytuł strony'  
       remove_tab: 'Remove Tab'  
       add_tab: 'Add Tab'
       status: 'Status'
-      page_type: 'Page Type'
-      published_at: 'Published at' 
-      close: 'Close'
-      no_pages: 'No Pages' 
+      page_type: 'Typ strony'
+      published_at: 'Opublikowano' 
+      close: 'Zamknij'
+      no_pages: 'Brak stron' 
       delete_pages: 'Delete {{pages}}'  
       remove_pages: 'Remove {{pages}}' 
       remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following {{pages}}?'
@@ -95,44 +95,44 @@ en:
       search_tags: 'Search Tags:'
       add_part: 'Add Part'
     snippets:
-      snippets: 'Snippets'          
-      snippet: 'Snippet'   
-      new_snippet: 'New Snippet'
-      edit_snippet: 'Edit Snippet'
-      description: 'Snippets are generally small pieces of content which are included in other pages or layouts.'
-      remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following snippet?'
-      delete_snippet: 'Delete Snippet'
+      snippets: 'Skrawki'          
+      snippet: 'Skrawek'   
+      new_snippet: 'Nowy skrawek'
+      edit_snippet: 'Edytuj skrawek'
+      description: 'Skrawki to małe jednostki tekstu które można osadzać w stronach lub szablonach.'
+      remove_warning_text: 'Czy chcesz <strong class="warning">nieodwracalnie usunąć</strong> ten skrawek?'
+      delete_snippet: 'Usuń skrawek'
     users:
-      user: 'User'
-      users: 'Users'      
-      username: 'Username'
-      password: 'Password' 
-      name: 'Name'
+      user: 'Użytkownik'
+      users: 'Użytkownicy'      
+      username: 'Login'
+      password: 'Hasło' 
+      name: 'Imię i nazwisko'
       login: 'Login' 
-      edit_user: 'Edit User'
-      new_user: 'New User'  
-      roles: 'Roles'
+      edit_user: 'Zmień dane użytkownika'
+      new_user: 'Nowy użytkownik'  
+      roles: 'Role'
       admin: 'Administrator' 
-      developer: 'Developer'
-      language: 'Language'
-      notes: 'Notes'    
-      optional: 'Optional'
-      required: 'Required'  
-      valid_email: 'Please use a valid e-mail address.' 
-      valid_login: 'At least 3 characters. Must be unique.'
-      valid_password: 'At least 5 characters.'
-      leave_password_unchanged: 'Leave password blank for it to remain unchanged.'
-      password_confirmation: 'Confirm Password'
-      roles_description: 'Roles restrict user privileges and turn parts of the administrative interface on or off.' 
-      language_description: 'The preferred language for the Admin interface.' 
-      remove_warning_text: 'Are you sure you want to <strong class="warning">permanently remove</strong> the following user?' 
-      delete_user: 'Delete User'
+      developer: 'Autor'
+      language: 'Język'
+      notes: 'Notatki'    
+      optional: 'Opcjonalne'
+      required: 'Nieodzowne'  
+      valid_email: 'To musi być popraawny adres E-mail.' 
+      valid_login: 'Co najmniej 3 znaki długości. Musi być unikalny.'
+      valid_password: 'Co najmniej 5 znaków długości.'
+      leave_password_unchanged: 'Zostaw to pole puste jeśli hasło nie ma być zmienione.'
+      password_confirmation: 'Potwierdzenie hasła'
+      roles_description: 'Role określają przywileje użytkownika i jego dostęp do poszczególnych części panelu administracyjnego.' 
+      language_description: 'Domyślny język panelu administracyjnego.' 
+      remove_warning_text: 'Czy chcesz <strong class="warning">nieodwracalnie usunąć</strong> tego użytkownika?' 
+      delete_user: 'Usuń użytkownika'
     preferences:
-      user_preferences: 'User Preferences'
+      user_preferences: 'Ustawienia użytkownika'
     welcome:
-      login: 'Please Login'
-      login_btn: 'Login'
-      remember_me: 'Remember me'
+      login: 'Logowanie'
+      login_btn: 'Zaloguj'
+      remember_me: 'Zapamiętaj mnie'
 
   # Page status  
   status:
@@ -143,9 +143,9 @@ en:
  
   # Buttons
   buttons:
-    save_and_continue: 'Save and Continue Editing'
-    save_changes: 'Save Changes'  
-    create: 'Create {{name}}'   
+    save_and_continue: 'Zapisz i edytuj dalej'
+    save_changes: 'Zapisz zmiany'  
+    create: 'Utwórz obiekt {{name}}'   
     
   # Select lists
   select:
@@ -155,21 +155,21 @@ en:
     
   # Main Navigation Tags
   tabs: 
-    pages: 'Seiten'
-    snippets: 'Snippets'
-    layouts: 'Layouts'
+    pages: 'Strony'
+    snippets: 'Skrawki'
+    layouts: 'Szablony'
      
   # Timestamp. This may need to be changed as it will most likely not work for many languages.
   timestamp:
-    last_updated: 'Last Updated'
-    by: 'by'
-    at: 'at'
+    last_updated: 'Ostatnia zmiana:'
+    by: ' '
+    at: ' '
     
   # Main Navigation Tags
   tabs: 
-    pages: 'Pages'
-    snippets: 'Snippets'
-    layouts: 'Layouts'
+    pages: 'Strony'
+    snippets: 'Skrawki'
+    layouts: 'Szablony'
     
   # Standard Tag Descriptions
   tag_desc:
@@ -328,21 +328,23 @@ en:
     
   date:
     formats:
-      default: "%Y-%m-%d"
+      default: "%d.%m.%Y"
       short: "%e %b"
       long: "%B %e, %Y"
       only_day: "%e"
 
-    day_names: [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
-    abbr_day_names: [Sun, Mon, Tue, Wed, Thu, Fri, Sat]
-    month_names: [~, January, February, March, April, May, June, July, August, September, October, November, December]   
-    abbr_month_names: [~, Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
-    order: [ :year, :month, :day ]
+    day_names: [niedziela, poniedziałek, wtorek, środa, czwartek, piątek, sobota]
+    abbr_day_names: [nd, pn, wt, śr, cz, pt, sb]
+    month_names: [~, styczeń, luty, marzec, kwiecień, maj, czerwiec, lipiec, sierpień, wrzesień, październik, listopad, grudzień]   
+    abbr_month_names: [~, stycznia, lutego, marca, kwietnia, maja, czerwca, lipca, sierpnia, września, października, listopada, grudnia]
+    order: [ :day, :month, :year ]
   
   time:
+    am: 'am'
+    pm: 'pm'
     formats:
       default: "%a %b %d %H:%M:%S %Z %Y"   
-      timestamp: "%I:%M <small>%p</small> on %B %d, %Y" 
+      timestamp: "%H:%M, %d %b %Y" 
       time: "%H:%M"
       short: "%d %b %H:%M"
       long: "%B %d, %Y %H:%M"
